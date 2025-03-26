@@ -16,3 +16,5 @@ Product Description: A concise description of the product, limited to less than 
 * BeautifulSoup
 * requests
 * csv
+* asyncio
+* aiohttp
