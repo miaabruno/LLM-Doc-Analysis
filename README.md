@@ -1,5 +1,5 @@
 # LLM-Doc-Analysis
-In this assignment, I analyzed SEC Form 8-K filings using LLM's to extract new product releases and structure the data in a tabular format. 
+In this assignment, I analyzed SEC Form 8-K filings using LLM's to extract new product releases and structured the data in a tabular format. 
 
 # Main Goal
 After processing SEC 8-K filings I extracted the following information from each document:
