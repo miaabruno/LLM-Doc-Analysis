@@ -1,3 +1,8 @@
+# Mia Bruno
+# 3/26/2025
+# CAP5619
+# LLM Doc Analysis
+
 import requests
 import json
 import pandas as pd
@@ -185,7 +190,7 @@ def main():
 
         company_data = pd.DataFrame.from_dict(data, orient='index')
         company_data['cik_str'] = company_data['cik_str'].astype(str).str.zfill(10)
-        company_data = company_data.head(100)  # Limit to 5 companies for demo
+        company_data = company_data.head(100)  
 
         # Process each company sequentially
         for _, row in company_data.iterrows():
